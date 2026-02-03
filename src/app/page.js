@@ -19,6 +19,7 @@ export default function LandingPage() {
           <ul className="header__menu">
             <li className="header_links"><a href="#agents">Agents</a></li>
             <li className="header_links"><a href="#featured">Features</a></li>
+            <li className="header_links"><Link className="link" href="/dashboard">Dashboard</Link></li>
             <li className="header_links"><Link className="link" href="/signup"><button className="btn">Sign-Up</button></Link></li>
             <li className="header_links"><Link className="link" href="/login"><button className="btn">Log-In</button></Link></li>
           </ul>
